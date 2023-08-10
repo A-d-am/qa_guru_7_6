@@ -100,7 +100,6 @@ def print_given_func_name_and_attributes(given_func, *args):
         result_arg_list.append(arg)
 
     result = f"{result_func_name} [{', '.join(result_arg_list)}]"
-    print(result)
     return result
 
 
